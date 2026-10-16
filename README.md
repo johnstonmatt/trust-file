@@ -11,6 +11,8 @@ The installer enables the option for you. If it doesn't show up, check that it's
 
 ## Usage
 
+![trust file context menu](./docs/img/context-menu.png)
+
 ctrl-click one or more files, folders or `.app` bundles in Finder and choose **Trust File**. A notification confirms success; a dialog lists anything that couldn't be trusted.
 
 If the option is not immediately in the context menu, it is likely under `Services` or `Quick Actions`.
