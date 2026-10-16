@@ -1,0 +1,29 @@
+{
+  "name": "install-trust-file",
+  "version": "1.0.0",
+  "description": "ctrl-click to trust a downloaded file or app (removes the macOS quarantine flag)",
+  "main": "bin/install.js",
+  "scripts": {
+    "start": "node ./bin/install"
+  },
+  "bin": {
+    "install-trust-file": "./bin/install.js"
+  },
+  "files": [
+    "bin",
+    "Trust File.workflow"
+  ],
+  "engines": {
+    "node": ">=16.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnstonmatt/trust-file.git"
+  },
+  "author": "Matt Johnston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnstonmatt/trust-file/issues"
+  },
+  "homepage": "https://github.com/johnstonmatt/trust-file#readme"
+}
